@@ -12,7 +12,12 @@ import java.util.TimerTask
 class MainActivity : AppCompatActivity() {
     private var imageModelArrayList: ArrayList<ImageModel>? = null
 
-    private val myImageList = intArrayOf(R.drawable.harley2, R.drawable.benz2, R.drawable.vecto, R.drawable.webshots, R.drawable.bikess, R.drawable.img1)
+    private val myImageList = intArrayOf(R.drawable.harley2,
+            R.drawable.benz2,
+            R.drawable.vecto,
+            R.drawable.webshots,
+            R.drawable.bikess,
+            R.drawable.img1)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

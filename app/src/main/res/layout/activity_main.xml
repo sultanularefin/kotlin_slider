@@ -24,9 +24,9 @@
             android:id="@+id/indicator"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+
             android:layout_centerHorizontal="true"
-            android:gravity="bottom"
+            android:gravity="top"
             android:padding="10dip"
             app:centered="true"
             app:fillColor="#df0623"
@@ -34,3 +34,6 @@
             app:snap="false" />
     </RelativeLayout>
 </RelativeLayout>
+
+    <!--            android:layout_alignParentBottom="true"-->
+    <!--    android:gravity="bottom"-->
